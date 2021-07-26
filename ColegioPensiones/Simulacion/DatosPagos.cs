@@ -46,11 +46,11 @@ namespace Simulacion
             {
                 {
                     MesePagadosAM[0],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150 }
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150 ,valorpendiente = valorPend(150, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[1],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60 }
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60, valorpendiente = valorPend(150, vapagar, Vayuda) }
                 }
             };
             DateTime fecPago = dt2020_PAO2;            
@@ -63,8 +63,13 @@ namespace Simulacion
                 db.pagos.Add(pagosAntMon);
                 db.SaveChanges();
             }
+        }   
+
+        static public double valorPend(double valorpagado, double valorApagar, double valorayuda)
+        {
+            double valpend = 0;
+            valpend = valorApagar - (valorpagado - valorayuda);
+            return valpend;
         }
-        
-        
     }
 }

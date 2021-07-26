@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oki1EIw8QpDdgW180Rvie9vG3ktNptypFgXbyu4sc70cPpIAm+Ffky+vEQMqs4TS0TjOjQJvZdsWic/Gc0hqZA==",
+  "dgSpecHash": "Doiup6MfEWQsi07nwrXp2kHPsRwdafrCKrOZoYMCudE3MFDJQD9E/hB4uVnLGTQeGPcD0WvZlNyjWoFqKbplZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
+  "projectFilePath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

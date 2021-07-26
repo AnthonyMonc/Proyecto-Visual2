@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+tKqwTM7QLZ63so73dOvVMUzwXaWiYQNXs//ARv+Lvq19bOJ0cTBwqkjB90UQLo9dweSMELwlxe3Xqh7UQiDhQ==",
+  "dgSpecHash": "mhk79DF0FYDg3toDFhOpsJtIjxNBQBI8i3IU+GWr0b6ZYjMOy6N/D6VbCgQ9vuV8pkIQY8Ca6HIpLDAeXL1VLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
+  "projectFilePath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antho\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

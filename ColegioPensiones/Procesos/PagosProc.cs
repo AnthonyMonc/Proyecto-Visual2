@@ -164,8 +164,8 @@ namespace Procesos
             bool aprobada = false;
 
             double valorAyuda = configuracion.valormaxayuda;
-            double valorminPagar = configuracion.valorminApagar;
-            
+            double valorminPagar = configuracion.valorminApagar;            
+
             // Consultar las matrículas del estudiante en estado Aprobadas
             using (var db = new ColegioContext())
             {

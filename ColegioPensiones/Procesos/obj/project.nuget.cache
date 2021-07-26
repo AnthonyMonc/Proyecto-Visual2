@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GhJkMccCn2d3zS7aFmzuYsOs3+EGtVxmaFxShZ70WaJ8WnbB3FVT/Dv5HamQMJag4O6R17Cz7w7zACow9silNg==",
+  "dgSpecHash": "JMm46xv7nf1/I62qvyiHYvePfoUZe6D8+RL1FbsYtbCrRy/VgstQjKeY+4d4hcJJTnAUxr1HFa7/htG8k17DrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj",
+  "projectFilePath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

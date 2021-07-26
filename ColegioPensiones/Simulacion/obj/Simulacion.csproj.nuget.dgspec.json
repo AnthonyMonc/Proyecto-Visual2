@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\Simulacion.csproj": {}
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\Simulacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
         "projectName": "ColegioInfo",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\Escenarios.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\Escenarios.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj",
         "projectName": "Escenarios",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\Escenarios.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +86,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,8 +204,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -266,14 +266,14 @@
         }
       }
     },
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj",
         "projectName": "Procesos",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -290,8 +290,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -324,14 +324,14 @@
         }
       }
     },
-    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\Simulacion.csproj": {
+    "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\Simulacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
+        "projectUniqueName": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
         "projectName": "Simulacion",
-        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
+        "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\Simulacion.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Simulacion\\obj\\",
+        "outputPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Simulacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -348,17 +348,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj"
               },
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\Escenarios.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Escenarios\\Escenarios.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj"
               },
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Persistencia\\Persistencia.csproj"
               },
-              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj": {
-                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Procesos\\Procesos.csproj"
+              "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj": {
+                "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj"
               }
             }
           }

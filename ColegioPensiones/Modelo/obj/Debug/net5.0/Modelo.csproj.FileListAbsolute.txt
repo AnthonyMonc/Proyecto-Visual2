@@ -10,3 +10,15 @@ C:\Users\antho\source\repos\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.cspr
 C:\Users\antho\source\repos\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.dll
 C:\Users\antho\source\repos\ColegioPensiones\Modelo\obj\Debug\net5.0\ref\Modelo.dll
 C:\Users\antho\source\repos\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.pdb
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\bin\Debug\net5.0\Modelo.deps.json
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\bin\Debug\net5.0\Modelo.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\bin\Debug\net5.0\ref\Modelo.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.csproj.AssemblyReference.cache
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\ref\Modelo.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Modelo\obj\Debug\net5.0\Modelo.pdb

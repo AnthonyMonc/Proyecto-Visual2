@@ -18,10 +18,11 @@ namespace Modelo.Colegio
 
         public double PagoFinal( double valormaxayuda)
         {
-
             // Cálculo
             double valorT = 0;
-            valorT = valorpagado - valormaxayuda ;
+            double valorpagadoT = 0;
+            valorpagadoT = valorpagado - valormaxayuda;
+            valorT = valorApagar - valorpagadoT;            
             valorT = Math.Round(valorT, 2);
             return valorT;
         }
