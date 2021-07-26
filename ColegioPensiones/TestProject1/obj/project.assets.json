@@ -2502,19 +2502,6 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "ColegioInfo/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Modelo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ColegioInfo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ColegioInfo.dll": {}
-        }
-      },
       "Escenarios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2592,7 +2579,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "ColegioInfo": "1.0.0",
           "Escenarios": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
@@ -8550,11 +8536,6 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "ColegioInfo/1.0.0": {
-      "type": "project",
-      "path": "../ColegioInfo/ColegioInfo.csproj",
-      "msbuildProject": "../ColegioInfo/ColegioInfo.csproj"
     },
     "Escenarios/1.0.0": {
       "type": "project",

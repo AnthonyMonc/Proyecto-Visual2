@@ -334,3 +334,5 @@ C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Test
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\TestProject1\obj\Debug\net5.0\ref\TestProject1.dll
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\TestProject1\obj\Debug\net5.0\TestProject1.pdb
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\TestProject1\obj\Debug\net5.0\TestProject1.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\TestProject1\bin\Debug\net5.0\Reportes.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\TestProject1\bin\Debug\net5.0\Reportes.pdb

@@ -1567,19 +1567,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ColegioInfo/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Modelo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ColegioInfo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ColegioInfo.dll": {}
-        }
-      },
       "Escenarios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6006,11 +5993,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ColegioInfo/1.0.0": {
-      "type": "project",
-      "path": "../ColegioInfo/ColegioInfo.csproj",
-      "msbuildProject": "../ColegioInfo/ColegioInfo.csproj"
-    },
     "Escenarios/1.0.0": {
       "type": "project",
       "path": "../Escenarios/Escenarios.csproj",
@@ -6039,7 +6021,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ColegioInfo >= 1.0.0",
       "Escenarios >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
@@ -6076,9 +6057,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
-              "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj"
-            },
             "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj": {
               "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Escenarios\\Escenarios.csproj"
             },

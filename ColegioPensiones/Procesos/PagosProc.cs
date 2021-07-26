@@ -64,7 +64,7 @@ namespace Procesos
                 det.Valor = dicmesesvalor[det.Ciclo.Mes];
             }
         }
-        // Validación de la matrícula
+        // Validación de el pago
         static public void ValidarPago()
         {
             using (var context = new ColegioContext())
@@ -103,20 +103,20 @@ namespace Procesos
             bool aprobada = true;
             using (var db = new ColegioContext())
             {
-                // Consulta a la configuración
+                
                 var configuracion = db.configuracions.Single();
-                // Consulta de las matrículas pendientes
+                
                 var pagos = db.pagos
                     .Include(matr => matr.Alumno)
                     .Include(matr => matr.PagoDets)
                         .ThenInclude(det => det.Ciclo)                           
                     .Single(matri => matri.PagoId == matriculaID );
-                // Revisa los prerequisitos
+                
                 foreach (var det in pagos.PagoDets)
                 {                   
                     
                         var mesespagad = det.Ciclo;
-                        // El estudiante habrá aprobado la materiaPreReq?
+                        
                         if (!PagoAproba(pagos.Alumno, mesespagad, configuracion))
                         {
                             aprobada = false;
@@ -139,12 +139,11 @@ namespace Procesos
 
                            if (pagoo.Valor is null)
                            {
-                               // 1.- No hay calificaciones
+                               
                                return false;
                            }
                            else
-                           {
-                               // 2.- Revisa calificaciónes
+                           {                               
                                Valoresproc opCalif = new Valoresproc(context);
                                if (opCalif.Aprobado(pagoo.Valor))
                                    return true;
@@ -160,7 +159,7 @@ namespace Procesos
             double valorAyuda = configuracion.valormaxayuda;
             double valorminPagar = configuracion.valorminApagar;            
 
-            // Consultar las matrículas del estudiante en estado Aprobadas
+            
             using (var db = new ColegioContext())
             {
                 var listapagos = db.pagos

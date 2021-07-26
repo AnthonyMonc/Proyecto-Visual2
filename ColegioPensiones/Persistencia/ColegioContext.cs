@@ -82,7 +82,7 @@ namespace Persistencia
                 .HasOne(mat => mat.periodo)
                 .WithMany(per => per.Pagos)
                 .HasForeignKey(mat => mat.PeriodoId);
-            // Relación de uno a muchos: cabecera detalle del pago
+            // Relación de uno a muchos: los detalles del pago
             modelBuilder.Entity<PagoDet>()
                 .HasOne(det => det.Pago)
                 .WithMany(mat => mat.PagoDets)

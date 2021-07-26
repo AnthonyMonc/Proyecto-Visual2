@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ColegioInfo\ColegioInfo.csproj" />
     <ProjectReference Include="..\Escenarios\Escenarios.csproj" />
     <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
     <ProjectReference Include="..\Procesos\Procesos.csproj" />

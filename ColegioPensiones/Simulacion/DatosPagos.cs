@@ -44,7 +44,7 @@ namespace Simulacion
             {
                 AyudaE = true;
                 Vayuda = 45;
-                vapagar = vapagar-Vayuda;
+                vapagar = 150;
             }
             else
             {
@@ -90,10 +90,12 @@ namespace Simulacion
                 db.SaveChanges();
             }
             Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
+            Console.WriteLine("Estado: {0}", estadoo);
+            Console.WriteLine("----------------------------------------------------------------------------");
             //Pagos Carla Gonzales
             //--------------------------------------------------------------------------------------------------------------------
             //--------------------------------------------------------------------------------------------------------------------
-             AyudaE = true;
+            AyudaE = true;
              Vayuda = 0;
              vapagar = 150;
             //Alumno
@@ -118,7 +120,7 @@ namespace Simulacion
             {
                 AyudaE = true;
                 Vayuda = 45;
-                vapagar = vapagar - Vayuda;
+                vapagar = 150;
             }
             else
             {
@@ -164,6 +166,8 @@ namespace Simulacion
                 db.SaveChanges();
             }
             Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
+            Console.WriteLine("Estado: {0}", estadoo);
+            Console.WriteLine("----------------------------------------------------------------------------");
             //Pagos Manuela
             //--------------------------------------------------------------------------------------------------------------------
             //--------------------------------------------------------------------------------------------------------------------
@@ -192,7 +196,7 @@ namespace Simulacion
             {
                 AyudaE = true;
                 Vayuda = 45;
-                vapagar = vapagar - Vayuda;
+                vapagar = 150;
             }
             else
             {
@@ -204,27 +208,27 @@ namespace Simulacion
             {
                 {
                     MesePagadosAM[0],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 105, valorpendiente = valorPend(105, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[1],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 110, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 105, valorpendiente = valorPend(105, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[2],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 105, valorpendiente = valorPend(105, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[3],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 105, valorpendiente = valorPend(105, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[4],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
                 },
                 {
                     MesePagadosAM[5],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
+                    new Valor() { valorApagar = (vapagar - Vayuda), valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
                 }
             };
             fecPago = dt2020_PAO2;
@@ -237,6 +241,8 @@ namespace Simulacion
                 db.SaveChanges();
             }
             Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
+            Console.WriteLine("Estado: {0}", estadoo);
+            Console.WriteLine("----------------------------------------------------------------------------");
         }   
 
         static public double valorPend(double valorpagado, double valorApagar, double valorayuda)

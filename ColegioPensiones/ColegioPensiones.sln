@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escenarios", "Escenarios\Escenarios.csproj", "{3478A319-6190-4DAD-8559-E8EB97DF9282}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColegioInfo", "ColegioInfo\ColegioInfo.csproj", "{DB681FBD-772E-45B3-B67E-61DFB55F3E56}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelo", "Modelo\Modelo.csproj", "{563BC555-0E3F-489A-9D67-858176C0C503}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistencia", "Persistencia\Persistencia.csproj", "{AE925725-ADB0-4514-826B-9DA92DE502FB}"
@@ -15,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simulacion", "Simulacion\Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Procesos", "Procesos\Procesos.csproj", "{EA496523-58DA-4789-B7DD-D09ED67F22D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes", "Reportes\Reportes.csproj", "{C49DD738-B54B-47A0-A32D-69F92DC1FA25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reportes", "Reportes\Reportes.csproj", "{C49DD738-B54B-47A0-A32D-69F92DC1FA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{9E5C5BB8-8515-42A0-BE33-08A176D8CE1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{9E5C5BB8-8515-42A0-BE33-08A176D8CE1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{3478A319-6190-4DAD-8559-E8EB97DF9282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3478A319-6190-4DAD-8559-E8EB97DF9282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3478A319-6190-4DAD-8559-E8EB97DF9282}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB681FBD-772E-45B3-B67E-61DFB55F3E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB681FBD-772E-45B3-B67E-61DFB55F3E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB681FBD-772E-45B3-B67E-61DFB55F3E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB681FBD-772E-45B3-B67E-61DFB55F3E56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{563BC555-0E3F-489A-9D67-858176C0C503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{563BC555-0E3F-489A-9D67-858176C0C503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563BC555-0E3F-489A-9D67-858176C0C503}.Release|Any CPU.ActiveCfg = Release|Any CPU

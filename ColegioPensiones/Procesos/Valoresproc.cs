@@ -36,12 +36,12 @@ namespace Procesos
             return valo.Aprueba(valormaxayuda, valorminApagar);
         }
 
-        public double NotaFinal(Valor val)
+        public double PagoFinall(Valor val)
         {
             return val.PagoFinal(valormaxayuda);
         }
 
-        public void RegistrarNotas(PagoDet det, Valor val)
+        public void RegistrarPagos(PagoDet det, Valor val)
         {
             det.Valor = val;
 

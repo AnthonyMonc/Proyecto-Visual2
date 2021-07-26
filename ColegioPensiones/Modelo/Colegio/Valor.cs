@@ -20,10 +20,9 @@ namespace Modelo.Colegio
         {
             // Cálculo
             double valorT = 0;
-            double valorpagadoT = valorpagado;
-            valorpagadoT = valorpagadoT - valormaxayuda;
-            valorT = valorApagar - valorpagadoT;            
-            valorT = Math.Round(valorT, 2);
+            double valorT2 = 0;
+            valorT = valorApagar - valorpagado;
+            valorT2 = valorT - valormaxayuda;
             return valorT;
         }
         // Verifica si cumple el mínimo

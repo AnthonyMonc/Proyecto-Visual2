@@ -36,7 +36,7 @@ namespace Reportes
                         Console.WriteLine("    Valor Pagado   Valor Ayuda   Valor a Pagar   ValorTotal");
                         Console.WriteLine("    {0}     {1}     {2}     {3}   {4}",
                             det.Valor.valorpagado, det.Valor.valorayuda, det.Valor.valorApagar,
-                            opvalor.NotaFinal(det.Valor), opvalor.Aprobado(det.Valor));
+                            opvalor.PagoFinall(det.Valor), opvalor.Aprobado(det.Valor));
                     }
                     
                 }
@@ -47,11 +47,12 @@ namespace Reportes
         {
             
             Console.WriteLine("Reporte de Pagos del Estudiante {0}", alumno.Nombrecompl);
+            
             foreach (var pagos in alumno.Pagos)
 
             {
                 Console.WriteLine("Pago Id: {0}",
-                    pagos.PagoId);
+                    pagos.PagoId);                
                 // Barre los detalles de cada matrícula
                 foreach (var pagdetall in pagos.PagoDets)
                 {
