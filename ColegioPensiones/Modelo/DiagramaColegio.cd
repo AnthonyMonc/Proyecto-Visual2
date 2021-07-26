@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modelo.Colegio.Alumno">
+    <Position X="0.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAoAAAAAAAQAAAAAAACAEAACAAAAAAA=</HashCode>
+      <FileName>Colegio\Alumno.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Colegio.Ciclo">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAAgBAAAAIAAAAAEAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>Colegio\Ciclo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Colegio.Colegio">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Colegio\Colegio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Colegio.Configuracion">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAACAAAAgAAAAAAAAAAAAAAAAAIAEACAAAAAAAAAA=</HashCode>
+      <FileName>Colegio\Configuracion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Colegio.Grado" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEgAAAAAAAAAAAAAAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Colegio\Grado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modelo.Colegio.Pago" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAADACAAgAAAAgAAABAAAAAACAAABABIAAAAAAAAEg=</HashCode>
+      <FileName>Colegio\Pago.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modelo.Colegio.PagoDet">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAQAAAgAAAAAAEAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Colegio\PagoDet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.Colegio.Periodo" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAgAgAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Colegio\Periodo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modelo.Colegio.Valor" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAABAAAAAEAAAAAAAAAABAAQAAIAIIAAAAAA=</HashCode>
+      <FileName>Colegio\Valor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

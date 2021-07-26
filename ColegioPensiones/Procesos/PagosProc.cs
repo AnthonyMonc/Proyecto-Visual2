@@ -40,7 +40,7 @@ namespace Procesos
                 Estado=estado,
                 periodo=periodo
             };
-            // 5.- Detalles de la Matrícula
+            // 5.- Detalles de la Pago
             pago.PagoDets= new List<PagoDet>();
             foreach (var mesesnombre in mesesnombres)
             {
