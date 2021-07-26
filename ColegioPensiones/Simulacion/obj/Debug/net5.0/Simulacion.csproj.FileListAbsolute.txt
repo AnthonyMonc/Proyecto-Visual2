@@ -158,3 +158,5 @@ C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simu
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simulacion\obj\Debug\net5.0\ref\Simulacion.dll
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simulacion\obj\Debug\net5.0\Simulacion.pdb
 C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simulacion\obj\Debug\net5.0\Simulacion.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simulacion\bin\Debug\net5.0\Reportes.dll
+C:\Users\antho\OneDrive\Documentos\GitHub\Proyecto-Visual2\ColegioPensiones\Simulacion\bin\Debug\net5.0\Reportes.pdb

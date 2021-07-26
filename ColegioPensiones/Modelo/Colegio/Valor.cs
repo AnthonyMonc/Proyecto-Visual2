@@ -20,8 +20,8 @@ namespace Modelo.Colegio
         {
             // Cálculo
             double valorT = 0;
-            double valorpagadoT = 0;
-            valorpagadoT = valorpagado - valormaxayuda;
+            double valorpagadoT = valorpagado;
+            valorpagadoT = valorpagadoT - valormaxayuda;
             valorT = valorApagar - valorpagadoT;            
             valorT = Math.Round(valorT, 2);
             return valorT;

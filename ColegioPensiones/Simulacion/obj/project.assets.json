@@ -1636,6 +1636,22 @@
         "runtime": {
           "bin/placeholder/Procesos.dll": {}
         }
+      },
+      "Reportes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Modelo": "1.0.0",
+          "Persistencia": "1.0.0",
+          "Procesos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reportes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reportes.dll": {}
+        }
       }
     }
   },
@@ -6014,6 +6030,11 @@
       "type": "project",
       "path": "../Procesos/Procesos.csproj",
       "msbuildProject": "../Procesos/Procesos.csproj"
+    },
+    "Reportes/1.0.0": {
+      "type": "project",
+      "path": "../Reportes/Reportes.csproj",
+      "msbuildProject": "../Reportes/Reportes.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6024,7 +6045,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
       "Persistencia >= 1.0.0",
-      "Procesos >= 1.0.0"
+      "Procesos >= 1.0.0",
+      "Reportes >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6065,6 +6087,9 @@
             },
             "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj": {
               "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Procesos\\Procesos.csproj"
+            },
+            "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Reportes\\Reportes.csproj": {
+              "projectPath": "C:\\Users\\antho\\OneDrive\\Documentos\\GitHub\\Proyecto-Visual2\\ColegioPensiones\\Reportes\\Reportes.csproj"
             }
           }
         }

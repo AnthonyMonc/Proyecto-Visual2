@@ -18,18 +18,18 @@ namespace TestProject1
                 datosPagos.Generar();
         }
         [Theory]
-        //le entrego las calificaciones
-        [InlineData(1, true)]        
+        
+        [InlineData(1, true)]
+        [InlineData(2, true)]
+        [InlineData(3, false)]
+        
 
-        public void PruebaCalificacion(int strEstudiante,  bool resEsperando)
+        public void PruebaPagos(int strEstudiante,  bool resEsperando)
             {
                 //Preparacion 
                 //declaramos una variable del resultado real
-                bool resReal;
-                  
-
+                bool resReal;                  
                 //Ejecucion 
-
                 resReal = PagosProc.PagosconMora(strEstudiante);
                 //Validación
                 if (resEsperando)

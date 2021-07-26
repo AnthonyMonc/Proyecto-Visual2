@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.8",
           "Persistencia": "1.0.0",
-          "Procesos": "1.0.0"
+          "Procesos": "1.0.0",
+          "Reportes": "1.0.0"
         },
         "runtime": {
           "Simulacion.dll": {}
@@ -1151,6 +1152,17 @@
         "runtime": {
           "Procesos.dll": {}
         }
+      },
+      "Reportes/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Modelo": "1.0.0",
+          "Persistencia": "1.0.0",
+          "Procesos": "1.0.0"
+        },
+        "runtime": {
+          "Reportes.dll": {}
+        }
       }
     }
   },
@@ -1888,6 +1900,11 @@
       "sha512": ""
     },
     "Procesos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reportes/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

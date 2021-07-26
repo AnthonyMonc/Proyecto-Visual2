@@ -2572,6 +2572,22 @@
           "bin/placeholder/Procesos.dll": {}
         }
       },
+      "Reportes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Modelo": "1.0.0",
+          "Persistencia": "1.0.0",
+          "Procesos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reportes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reportes.dll": {}
+        }
+      },
       "Simulacion/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2581,7 +2597,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
           "Persistencia": "1.0.0",
-          "Procesos": "1.0.0"
+          "Procesos": "1.0.0",
+          "Reportes": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Simulacion.dll": {}
@@ -8558,6 +8575,11 @@
       "type": "project",
       "path": "../Procesos/Procesos.csproj",
       "msbuildProject": "../Procesos/Procesos.csproj"
+    },
+    "Reportes/1.0.0": {
+      "type": "project",
+      "path": "../Reportes/Reportes.csproj",
+      "msbuildProject": "../Reportes/Reportes.csproj"
     },
     "Simulacion/1.0.0": {
       "type": "project",

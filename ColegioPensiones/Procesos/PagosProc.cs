@@ -74,15 +74,10 @@ namespace Procesos
                     .Include(pag => pag.PagoDets)
                      .ThenInclude(det => det.Valor)                        
                     .Single(pag => pag.EstadoID== 1 );
-
                 foreach ( var pgos in pago.PagoDets )
-                {
-                    Console.WriteLine("  {0}", pgos.Pago.Alumno.Nombrecompl);                                    
-                        Valoresproc opCalif = new Valoresproc(context);
-                        Console.WriteLine("    ValorApagar   Valorayuda    Valorpagado    ValorPendiente");
-                    Console.WriteLine("  {0} {1}", pgos.Valor.valorApagar, pgos.Valor.valorayuda);                                                         
-                }
-                Console.WriteLine();                               
+                {                    
+                        Valoresproc opCalif = new Valoresproc(context);                                                                            
+                }                
             }
         }
         static public bool PagosconMora(int Alumno)
@@ -91,14 +86,13 @@ namespace Procesos
             //consulta 
             using (var context = new ColegioContext())
             {
+
                 pago = context.pagos
                     .Include(pag => pag.Alumno)
                     .Include(pag => pag.PagoDets)
                      .ThenInclude(det => det.Valor)
-                    .Where(pag => pag.EstadoID == 1 && pag.AlumnoID == Alumno)
-                    .Single();              
-
-                //res = (pago.PagoDets.Valor) >= pgos.Valor.valorpendiente;                    
+                    .Where(pag =>  pag.AlumnoID == Alumno)
+                    .Single();    
                 
             }
 
@@ -116,7 +110,7 @@ namespace Procesos
                     .Include(matr => matr.Alumno)
                     .Include(matr => matr.PagoDets)
                         .ThenInclude(det => det.Ciclo)                           
-                    .Single(matri => matri.PagoId == matriculaID && matri.EstadoID == 1);
+                    .Single(matri => matri.PagoId == matriculaID );
                 // Revisa los prerequisitos
                 foreach (var det in pagos.PagoDets)
                 {                   
@@ -175,8 +169,7 @@ namespace Procesos
                     .Include(matr => matr.PagoDets.Where(det => det.Ciclo.CicloId == meses.CicloId))
                         .ThenInclude(det => det.Ciclo)                            
                     .Where(matr =>
-                        matr.AlumnoID == estudiante.alumnoId &&
-                        matr.EstadoID == 1
+                        matr.AlumnoID == estudiante.alumnoId 
                     )
                     .ToList();
                 // Debbuger
@@ -184,8 +177,7 @@ namespace Procesos
                 foreach (var pagos in listapagos)
                 {                    
                     if (pagos.PagoDets.Count == 0)
-                    Console.WriteLine("\nPago ID:" + pagos.PagoId);
-                    Console.WriteLine("----> La matrícula no tiene detalles");
+                    Console.WriteLine("\nPago ID:" + pagos.PagoId);                    
                     foreach (var det in pagos.PagoDets)
                     {
                         var mesesc = det.Ciclo;
@@ -201,91 +193,6 @@ namespace Procesos
             }
             return aprobada;
         }
-        /*static public bool ConsultaYValidaPagoconMora(string strEstudiante)
-        {
-            Pago pago;
-            using (var db = new ColegioContext())
-            {
-                pago = db.pagos
-                   .Include(matr => matr.Alumno)
-                   .Single(matr =>
-                       matr.Alumno.Nombrecompl == strEstudiante &&
-                       matr.Estado.Mora == "Con Mora"
-                   );
-            }
-            return MatriculaAprobada(pago.PagoId);
-        }
-        public static bool MatriculaAprobada(int pagoid)
-        {
-            bool aprobada = true;
-            using (var db = new ColegioContext())
-            {
-                // Consulta a la configuración
-                var configuracion = db.configuracions.Single();
-                // Consulta de las matrículas pendientes
-                var pago = db.pagos
-                    .Include(matr => matr.Alumno)
-                    .Include(matr => matr.PagoDets)
-                        .ThenInclude(det => det.Ciclo)                            
-                    .Single(matri => matri.PagoId == pagoid && matri.Estado.Mora == "Con Mora");
-                // Revisa los prerequisitos
-                foreach (var det in pago.PagoDets)
-                {
-                    var ciclo = det.Ciclo;
-                    // Si la materia no tiene malla, entonces OK                    
-                    // Verificación de prerequisitos
-                    
-                        var meses = det.Ciclo;
-                        // El estudiante habrá aprobado la materiaPreReq?
-                        if (!MateriaAprobada(pago.Alumno, meses, configuracion))
-                        {
-                            aprobada = false;
-                        }
-                    
-                }
-            }
-            return aprobada;
-        }
-        private static bool MateriaAprobada(Alumno estudiante, Ciclo meses, Configuracion configuracion)
-        {
-            bool aprobada = false;
-            double peso1 = configuracion.valorminApagar;
-            double peso2 = configuracion.valormaxayuda;           
-            // Consultar las matrículas del estudiante en estado Aprobadas
-            using (var db = new ColegioContext())
-            {
-                var listapagos = db.pagos
-                    .Include(al=>al.Alumno)
-                    .Include(matr => matr.PagoDets)                        
-                    .Include(matr => matr.PagoDets.Where(det => det.Ciclo.Mes==meses.Mes)                                                    
-                    .Where(matr =>
-                        matr.Alumno == estudiante.EstudianteId &&
-                        matr.Estado == "Aprobada"
-                    )
-                    .ToList();
-                // Debbuger
-                Console.WriteLine("-----------------------------------------------");
-                Console.WriteLine(" " + estudiante.Nombre + " " + materia.Nombre);
-                foreach (var matricula in listaMatriculas)
-                {
-                    Console.WriteLine("\tMatrícula ID:" + matricula.MatriculaId);
-                    if (matricula.Matricula_Dets.Count == 0)
-                        Console.WriteLine("----> La matrícula no tiene detalles");
-                    foreach (var det in matricula.Matricula_Dets)
-                    {
-                        var materiaPreReq = det.Curso.Materia;
-                        Console.WriteLine("   \t" + materiaPreReq.Nombre + " " +
-                            det.Calificacion.Nota1 + " " +
-                            det.Calificacion.Nota2 + " " +
-                            det.Calificacion.Nota3 + " " +
-                            (det.Calificacion.Aprueba(peso1, peso2, peso3, notaMin) ? "Aprueba" : "Reprueba")
-                        );
-                        if (det.Calificacion.Aprueba(peso1, peso2, peso3, notaMin))
-                            aprobada = true;
-                    }
-                }
-            }
-            return aprobada;
-        }*/
+      
     }
 }

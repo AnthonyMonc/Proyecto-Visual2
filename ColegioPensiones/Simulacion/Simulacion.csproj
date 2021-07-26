@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Escenarios\Escenarios.csproj" />
     <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
     <ProjectReference Include="..\Procesos\Procesos.csproj" />
+    <ProjectReference Include="..\Reportes\Reportes.csproj" />
   </ItemGroup>
 
 </Project>

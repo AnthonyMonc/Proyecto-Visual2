@@ -16,7 +16,7 @@ namespace Procesos
         public Valoresproc(ColegioContext context)
         {
             _context = context;
-            // Carga los parámetros para calcular la nota final
+            // Carga los parámetros para calcular el pago final
             var config = context.configuracions
                 .Include(ctx => ctx.PeriodoV)
                 .Single(ctx => ctx.ConfiguracionId == 1);

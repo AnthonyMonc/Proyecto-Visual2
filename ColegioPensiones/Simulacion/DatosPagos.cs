@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Modelo.Colegio;
 using Persistencia;
 using Procesos;
+using Reportes;
 
 namespace Simulacion
 {
@@ -28,13 +30,17 @@ namespace Simulacion
             string[] MesePagadosAM = new string[]
             {
                 "Septiembre",
-                "Octubre"
+                "Octubre",
+                "Noviembre",
+                "Diciembre",
+                "Enero",
+                "Febrero"
             };
             
             string tvivienda = "Arrendada";
             bool serBs= true;            
             double Ingresos= 1200;
-            if(tvivienda== "Arrendada" && serBs == false && Ingresos <= 550)
+            if (ayudaEc(tvivienda, serBs, Ingresos) ==true )
             {
                 AyudaE = true;
                 Vayuda = 45;
@@ -54,7 +60,23 @@ namespace Simulacion
                 },
                 {
                     MesePagadosAM[1],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[2],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[3],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60, valorpendiente = valorPend(60, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[4],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 50, valorpendiente = valorPend(50, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[5],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
                 }
             };
             DateTime fecPago = dt2020_PAO2;            
@@ -67,8 +89,8 @@ namespace Simulacion
                 db.pagos.Add(pagosAntMon);
                 db.SaveChanges();
             }
-
-            //Pagos Anthony Moncayo
+            Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
+            //Pagos Carla Gonzales
             //--------------------------------------------------------------------------------------------------------------------
             //--------------------------------------------------------------------------------------------------------------------
              AyudaE = true;
@@ -82,13 +104,17 @@ namespace Simulacion
             string[] MesePagadosCG = new string[]
             {
                 "Septiembre",
-                "Octubre"
+                "Octubre",
+                "Noviembre",
+                "Diciembre",
+                "Enero",
+                "Febrero"
             };
 
             tvivienda = "Arrendada";
             serBs = true;
             Ingresos = 1200;
-            if (tvivienda == "Arrendada" && serBs == false && Ingresos <= 550)
+            if (ayudaEc(tvivienda, serBs, Ingresos) == true)
             {
                 AyudaE = true;
                 Vayuda = 45;
@@ -108,21 +134,37 @@ namespace Simulacion
                 },
                 {
                     MesePagadosAM[1],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[2],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[3],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[4],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[5],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
                 }
             };
             fecPago = dt2020_PAO2;
-            estadoo = "Con Mora";
-            //Persistencia de Anthony             
+            estadoo = "Sin Mora";
+            //Persistencia de Carla             
             using (var db = new ColegioContext())
             {
-                pagosCarGon = PagosProc.Crearpago(db, estNombre, tvivienda, serBs, Ingresos, AyudaE, fecPago, MesePagadosAM, estadoo, fechaInicio);
+                pagosCarGon = PagosProc.Crearpago(db, estNombre, tvivienda, serBs, Ingresos, AyudaE, fecPago, MesePagadosCG, estadoo, fechaInicio);
                 PagosProc.RegistrarPagos(pagosCarGon, dicvalorespagadosCG);
                 db.pagos.Add(pagosCarGon);
                 db.SaveChanges();
             }
-
-            //Pagos Anthony Moncayo
+            Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
+            //Pagos Manuela
             //--------------------------------------------------------------------------------------------------------------------
             //--------------------------------------------------------------------------------------------------------------------
             AyudaE = true;
@@ -136,13 +178,17 @@ namespace Simulacion
             string[] MesePagadosMK = new string[]
             {
                 "Septiembre",
-                "Octubre"
+                "Octubre",
+                "Noviembre",
+                "Diciembre",
+                "Enero",
+                "Febrero"
             };
 
             tvivienda = "Arrendada";
-            serBs = true;
-            Ingresos = 1200;
-            if (tvivienda == "Arrendada" && serBs == false && Ingresos <= 550)
+            serBs = false;
+            Ingresos = 400;
+            if (ayudaEc(tvivienda, serBs, Ingresos) == true)
             {
                 AyudaE = true;
                 Vayuda = 45;
@@ -162,19 +208,35 @@ namespace Simulacion
                 },
                 {
                     MesePagadosAM[1],
-                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 60, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 110, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[2],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[3],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 150, valorpendiente = valorPend(150, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[4],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
+                },
+                {
+                    MesePagadosAM[5],
+                    new Valor() { valorApagar = vapagar, valorayuda = Vayuda, valorpagado = 0, valorpendiente = valorPend(0, vapagar, Vayuda) }
                 }
             };
             fecPago = dt2020_PAO2;
-            estadoo = "Con Mora";
-            //Persistencia de Anthony             
+            estadoo = "Con Mora";                       
             using (var db = new ColegioContext())
             {
-                pagosManKha = PagosProc.Crearpago(db, estNombre, tvivienda, serBs, Ingresos, AyudaE, fecPago, MesePagadosAM, estadoo, fechaInicio);
+                pagosManKha = PagosProc.Crearpago(db, estNombre, tvivienda, serBs, Ingresos, AyudaE, fecPago, MesePagadosMK, estadoo, fechaInicio);
                 PagosProc.RegistrarPagos(pagosManKha, dicvalorespagadosMK);
                 db.pagos.Add(pagosManKha);
                 db.SaveChanges();
             }
+            Reportes.Reporte.ReportePagos(DatosPagos.ValorporAlumno(estNombre));
         }   
 
         static public double valorPend(double valorpagado, double valorApagar, double valorayuda)
@@ -182,6 +244,37 @@ namespace Simulacion
             double valpend = 0;
             valpend = valorApagar - (valorpagado - valorayuda);
             return valpend;
+        }
+        static public bool ayudaEc(string tvivienda, bool serBs, double Ingresos)
+        {
+            bool AyudaE = true;
+            if (tvivienda == "Arrendada" && serBs == false && Ingresos <= 550)
+            {
+                AyudaE = true;                
+            }
+            else
+            {
+                AyudaE = false;              
+            }
+            return AyudaE;
+        }
+        static public Alumno ValorporAlumno(string sEstNombre)
+        {
+            Alumno estudiante;
+            // Consulta las notas de un alumno
+            using (var context = new ColegioContext())
+            {
+                estudiante = context.alumnos
+                    .Include(est => est.Pagos)
+                        .ThenInclude(matr => matr.PagoDets)
+                            .ThenInclude(det => det.Valor)
+                    .Include(est => est.Pagos)
+                        .ThenInclude(matr => matr.PagoDets)
+                            .ThenInclude(det => det.Ciclo)
+                    .Include(est => est.Pagos)
+                    .Single(est => est.Nombrecompl.Equals(sEstNombre));
+            }
+            return estudiante;
         }
     }
 }
