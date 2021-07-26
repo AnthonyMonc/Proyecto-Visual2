@@ -1,0 +1,15 @@
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\Escenarios.deps.json
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\Escenarios.dll
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\ref\Escenarios.dll
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\Escenarios.pdb
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\Modelo.dll
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\bin\Debug\net5.0\Modelo.pdb
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.csproj.AssemblyReference.cache
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.AssemblyInfoInputs.cache
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.AssemblyInfo.cs
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.csproj.CopyComplete
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.dll
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\ref\Escenarios.dll
+C:\Users\antho\source\repos\ColegioPensiones\Escenarios\obj\Debug\net5.0\Escenarios.pdb

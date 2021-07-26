@@ -1,0 +1,15 @@
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\ColegioInfo.deps.json
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\ColegioInfo.dll
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\ref\ColegioInfo.dll
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\ColegioInfo.pdb
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.csproj.AssemblyReference.cache
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.AssemblyInfoInputs.cache
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.AssemblyInfo.cs
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.dll
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ref\ColegioInfo.dll
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.pdb
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\Modelo.dll
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\antho\source\repos\ColegioPensiones\ColegioInfo\obj\Debug\net5.0\ColegioInfo.csproj.CopyComplete

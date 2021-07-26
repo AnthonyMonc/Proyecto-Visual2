@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
+        "projectName": "ColegioInfo",
+        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\ColegioInfo.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\ColegioInfo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antho\\source\\repos\\ColegioPensiones\\Modelo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
