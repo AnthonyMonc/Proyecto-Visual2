@@ -16,7 +16,7 @@ namespace Simulacion
             EscenarioControl.Grabar(Escenario);
             var datosPagos = new DatosPagos();
             datosPagos.Generar();
-            PagosProc.ValidarPago();
+            //PagosProc.ValidarPago();
             
         }
     }
